@@ -1,0 +1,9 @@
+
+
+
+1.電腦左下放大鏡搜尋 anaconda prompt
+
+2.開啟黑窗 並分別輸入執行以下指令 安裝程式庫
+(1) pip install numpy
+(2) pip install Pillow
+(3) conda install -c conda-forge opencv
