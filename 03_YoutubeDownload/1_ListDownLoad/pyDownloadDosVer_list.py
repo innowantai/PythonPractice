@@ -40,7 +40,7 @@ def ytDownLoad(url):
                 downLoadStreams = streamsType[Target[Res[ii]]]
                 #fileList = [Res[ii],str(downLoadStreams.fps)]
                 break 
-        downLoadStreams.download(os.getcwd() + '\\0_AllVideo' )    
+        downLoadStreams.download(os.path.join(os.getcwd(), '0_AllVideo' ))    
         print("  下載完成")
            
 def findTxtFile():    
